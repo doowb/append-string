@@ -29,4 +29,16 @@ describe('appendString', function() {
   it('should append the buffer suffix to the string prefix without EOL', function() {
     assert.equal(appendString('abc', new Buffer('def')), 'abc' + os.EOL + 'def');
   });
+
+  it('should not append EOL when suffix is empty', function() {
+    assert.deepEqual(appendString('abc', ''), 'abc');
+  });
+
+  it('should not append EOL when suffix is undefined', function() {
+    assert.deepEqual(appendString('abc'), 'abc');
+  });
+
+  it('should not append EOL when suffix is empty buffer', function() {
+    assert.deepEqual(appendString('abc', new Buffer('')), 'abc');
+  });
 });

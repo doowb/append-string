@@ -23,6 +23,9 @@ var os = require('os');
  */
 
 module.exports = function appendString(str, suffix) {
+  if (!suffix || !suffix.length) {
+    return str;
+  }
   var eol;
   if (str.slice(-2) === '\r\n') {
     eol = '\r\n';
