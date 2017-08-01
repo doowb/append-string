@@ -14,16 +14,16 @@
   ],
   "main": "index.js",
   "engines": {
-    "node": ">=4"
+    "node": ">=0.10.0"
   },
   "scripts": {
     "test": "mocha"
   },
+  "devDependencies": {
+    "mocha": "^3.5.0"
+  },
   "keywords": [
     "append",
     "string"
-  ],
-  "devDependencies": {
-    "mocha": "^3.5.0"
-  }
+  ]
 }
