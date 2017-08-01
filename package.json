@@ -1,7 +1,7 @@
 {
   "name": "append-string",
   "description": "Append a string to another string ensuring to preserve line ending characters.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://github.com/doowb/append-string",
   "author": "Brian Woodward (https://doowb.com)",
   "repository": "doowb/append-string",
@@ -25,6 +25,13 @@
   },
   "keywords": [
     "append",
+    "append-string",
+    "concat",
+    "concat-string",
+    "eol",
+    "join",
+    "join-string",
+    "normalize",
     "string"
   ],
   "verb": {
