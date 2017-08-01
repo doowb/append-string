@@ -1,0 +1,27 @@
+{
+  "name": "append-string",
+  "description": "Append a string to another string ensuring to preserve line ending characters.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/doowb/append-string",
+  "author": "Brian Woodward (https://doowb.com)",
+  "repository": "doowb/append-string",
+  "bugs": {
+    "url": "https://github.com/doowb/append-string/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "LICENSE"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "append",
+    "string"
+  ]
+}
