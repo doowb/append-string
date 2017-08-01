@@ -20,10 +20,24 @@
     "test": "mocha"
   },
   "devDependencies": {
+    "gulp-format-md": "^1.0.0",
     "mocha": "^3.5.0"
   },
   "keywords": [
     "append",
     "string"
-  ]
+  ],
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  }
 }
